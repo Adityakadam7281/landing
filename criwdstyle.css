@@ -1,0 +1,45 @@
+
+#gh {
+    height: 500px;
+}
+
+#line {
+    text-shadow: #d64304;
+    font-size: 70px;
+    font-style: italic;
+    margin: 10px;
+    background: -webkit-linear-gradient(#d64304, #abd7b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links {
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    align-items: center;
+    width: 350px;
+    height: 180px;
+    font-size: xx-large;
+    background-color: rgb(256, 256, 256);
+    margin: 37px;
+    border-radius: 17px;
+
+    display: flex;
+    justify-content: center;
+    
+    transition: background-color 400ms ease-in-out;
+}
+
+#java {
+    height: 180px;
+    width: 230px;
+    align-items: center;
+}
+.links:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+    transition-delay: 0.1s;
+    transition-duration: 2sec;
+    background-color: aquamarine;
+}
